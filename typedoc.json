@@ -1,0 +1,30 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "server.ts",
+    "config.ts",
+    "rate-limiter.ts",
+    "src/api/weather-client.ts",
+    "src/handlers/weather-handler.ts",
+    "src/services/weather-formatter.ts",
+    "src/types/weather.ts",
+    "src/errors/index.ts"
+  ],
+  "out": "docs/generated",
+  "name": "Weather MCP App",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "excludeExternals": false,
+  "readme": "none",
+  "sort": ["source-order"],
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "Server",
+    "API",
+    "Services",
+    "Types",
+    "Errors",
+    "*"
+  ]
+}
